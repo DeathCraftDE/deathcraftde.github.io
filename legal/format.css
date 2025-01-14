@@ -1,0 +1,95 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117; /* Deep black-blue */
+    color: #c9d1d9; /* Soft white for text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;        
+}
+nav {
+            background-color: #161b22; /* Darker blue-black */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #ff7b72; /* Bright blue links */
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1e2a35; /* Subtle hover effect */
+            color: #ff7b72; /* Highlighted red */
+        }
+
+        /* Header Section */
+        header {
+            background-color: #161b22;
+            color: #c9d1d9;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #161b22; /* Card background */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        main h2 {
+            color: #ff7b72; /* Bright red headings */
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        main ul {
+            margin: 10px 0 20px 20px;
+            padding-left: 20px;
+        }
+
+        main li {
+            margin-bottom: 10px;
+        }
+
+        main p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #161b22;
+            color: #c9d1d9;
+            border-top: 1px solid #30363d;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
