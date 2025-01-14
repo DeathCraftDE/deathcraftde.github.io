@@ -3,40 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deathcraft - 404</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>404 - Page Not Found</title>
     <style>
-        body{
-            background-size: cover;
-            font-family: 'Roboto', 'sans-serif';
+        /* Base Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1117; /* Deep black-blue */
+            color: #c9d1d9; /* Soft white for text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
         }
-        main{
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .header404{
-            font-family: 'Chango', cursive;
-            font-size: 48px;
-        }
-        .content404{
+
+        /* Centered Content */
+        .container {
             text-align: center;
+            padding: 50px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ff7b72; /* Bright red for emphasis */
+        }
+
+        .container p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            color: #ff7b72; /* Bright red links */
+            text-decoration: none;
+            border: 2px solid #ff7b72;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container a:hover {
+            background-color: #ff7b72; /* Fill background on hover */
+            color: #0d1117; /* Contrast text */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #161b22;
+            color: #c9d1d9;
+            border-top: 1px solid #30363d;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <main>
-        <h4 class="header404">404</h4>
-        <div class="content-404">
-            Uh-oh! We couldn't find the page you are looking for.
-        </div>
-        <p>
-            <a href="/">Check our home page</a>
-        </p>
-    </main>
-    
+    <div class="container">
+        <h1>404</h1>
+        <p>Oops! The page you are looking for doesn't exist or has been moved.</p>
+        <p>Check the URL or return to the homepage.</p>
+        <a href="/">Go to Homepage</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Deathcraft Community. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
 </body>
 </html>
